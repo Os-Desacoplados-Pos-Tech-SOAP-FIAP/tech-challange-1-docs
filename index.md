@@ -5,53 +5,30 @@ hero:
   name: "Oficina Mecânica"
   text: "Tech Challenge FIAP — Fase 1"
   tagline: Sistema de gestão de ordens de serviço com DDD, Clean Architecture e NestJS
-  actions:
-    - theme: brand
-      text: Ver Fluxo Completo
-      link: /fluxo-completo
-    - theme: alt
-      text: Script de Apresentação
-      link: /apresentacao
 
 features:
-  - title: Arquitetura DDD
-    details: Domain-Driven Design com Clean Architecture em 5 camadas — domain, application, infrastructure, modules e common. Sem dependências do framework na camada de domínio.
-    icon: 🏗️
-  - title: Fluxo de Ordens de Serviço
-    details: 7 estados com transições controladas pelo domínio. Do recebimento ao diagnóstico, orçamento, aprovação, execução e entrega.
+  - title: Fluxo Completo da OS
+    details: Passo a passo das 8 etapas do fluxo — desde o cadastro do cliente até a entrega do veículo, com dados do seed para reprodução exata.
     icon: 🔧
-  - title: Segurança e Qualidade
-    details: Autenticação JWT, controle de acesso por perfil (RBAC), cobertura de testes de 80% e análise estática com SonarQube.
+    link: /fluxo-completo
+
+  - title: DER — Diagrama Entidade-Relacionamento
+    details: Estrutura das entidades e seus relacionamentos no banco de dados PostgreSQL — clientes, veículos, ordens de serviço, execuções e usuários.
+    icon: 🗂️
+    link: /der
+
+  - title: SonarQube — Qualidade de Código
+    details: Análise estática de reliability, security, maintainability, cobertura de testes e duplicações. Documentado via capturas de tela.
+    icon: 📊
+    link: /sonarqube
+
+  - title: Relatório OWASP ZAP
+    details: Relatório completo de varredura de segurança gerado pelo OWASP ZAP na API REST da aplicação.
     icon: 🔒
-  - title: Documentação e API
-    details: Swagger/OpenAPI gerado automaticamente. Deploy com Docker Compose — banco + API com seed automático.
-    icon: 📚
+    link: /relatorio-zap
+
+  - title: Scan Report
+    details: Relatório complementar de varredura de vulnerabilidades da aplicação.
+    icon: 🛡️
+    link: /scan-report
 ---
-
-## Stack Técnica
-
-| Camada | Tecnologia |
-|--------|-----------|
-| Runtime | Node.js 20 + TypeScript 5 |
-| Framework | NestJS 10 |
-| Banco de Dados | PostgreSQL 16 + Prisma 5 |
-| Autenticação | JWT + bcryptjs |
-| Testes | Jest (unitário + E2E) |
-| Containers | Docker + Docker Compose |
-| Qualidade | SonarQube + OWASP ZAP |
-
-## Perfis de Acesso
-
-| Perfil | Responsabilidades |
-|--------|------------------|
-| **ADMINISTRADOR** | Gestão completa do sistema, cadastros e métricas |
-| **ATENDENTE** | Abertura de OS, cadastro de clientes e veículos, orçamento |
-| **MECÂNICO** | Execução e conclusão dos serviços na OS |
-| **Público** | Aprovação/recusa de orçamento via token |
-
-## Diagramas e Relatórios
-
-- [DER — Diagrama Entidade-Relacionamento](/der)
-- [SonarQube — Qualidade de Código](/sonarqube)
-- [Relatório OWASP ZAP](/relatorio-zap.html) — análise de segurança da API
-- [Scan Report](/scan-report.html) — varredura de vulnerabilidades

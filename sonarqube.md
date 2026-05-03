@@ -2,6 +2,8 @@
 
 Análise estática de código realizada com SonarQube para garantir qualidade, segurança e manutenibilidade.
 
+> **Aviso:** O relatório foi documentado via capturas de tela. A versão gratuita do SonarQube não permite exportação de relatórios em formato de arquivo.
+
 ## Visão Geral
 
 ![SonarQube Overview](/SonarQube-overview.png)
