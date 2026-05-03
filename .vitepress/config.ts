@@ -15,6 +15,7 @@ export default defineConfig({
       nav: [
          { text: 'Início', link: '/' },
          { text: 'Fluxo Completo', link: '/fluxo-completo' },
+         { text: 'Linguagem Ubíqua', link: '/linguagem-ubiqua' },
          {
             text: 'Relatórios',
             items: [
@@ -31,6 +32,7 @@ export default defineConfig({
             items: [
                { text: 'Início', link: '/' },
                { text: 'Fluxo Completo da OS', link: '/fluxo-completo' },
+               { text: 'Linguagem Ubíqua', link: '/linguagem-ubiqua' },
             ],
          },
          {
