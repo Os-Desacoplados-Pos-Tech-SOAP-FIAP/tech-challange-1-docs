@@ -4,11 +4,11 @@ Análise estática de código realizada com SonarQube para garantir qualidade, s
 
 ## Visão Geral
 
-![SonarQube Overview](./SonarQube-overview.png)
+![SonarQube Overview](/SonarQube-overview.png)
 
 ## Detalhes dos Issues
 
-![SonarQube Issues](./SonarQube-issues.png)
+![SonarQube Issues](/SonarQube-issues.png)
 
 ## Métricas Avaliadas
 

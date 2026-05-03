@@ -2,7 +2,7 @@
 
 Diagrama que representa a estrutura das entidades e seus relacionamentos no banco de dados PostgreSQL.
 
-![Diagrama Entidade-Relacionamento](./DER.png)
+![Diagrama Entidade-Relacionamento](/DER.png)
 
 ## Entidades Principais
 
